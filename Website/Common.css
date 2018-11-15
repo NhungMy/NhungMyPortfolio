@@ -1,4 +1,4 @@
-*{margin: 0; padding: 0;} 
+*{margin: 0; padding: 0;}
 /* The side navigation menu */
 .BigBoss{
 	position: relative;
@@ -10,10 +10,11 @@
     width: 100%;
     height: 100%;
 }
-.height100{
+.height100 {
     height: 100%;
 }
-#BGsidenav{
+
+.BGsidenav {
     background-image: -webkit-linear-gradient(left,white,rgba(255,255,255,0.7));
     border-right: 1px solid #eee;
     position: fixed;
@@ -21,9 +22,39 @@
     left: 0;
     z-index: 1;
     width: 120px;
-    height: 100%
+    height: 100%;
+		overflow: auto;
 }
-.pageTitle{
+
+@media screen and (max-width: 700px) {
+  .BGsidenav {
+    width: 100%;
+    height: 80px;
+    position: relative;
+		border-bottom: 1px solid #eee;
+		border-right: 0px
+  }
+
+	.BGsidenav .pageTitle {
+		position: absolute;
+    vertical-align: middle;
+		left: 150px;
+    z-index: 2;
+    display: block;
+    -webkit-transform: rotate(0deg);
+    text-transform: uppercase;
+	}
+
+	.BGsidenav .menunav{
+	    position: fixed;
+	    top: 30px;
+	    left: 42px;
+	    z-index: 3;
+	}
+
+}
+
+.pageTitle {
     position: fixed;
     top:50%;
     left: 0;
@@ -53,20 +84,3 @@
     display:block;
     padding: 48px 60px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
