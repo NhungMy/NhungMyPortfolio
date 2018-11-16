@@ -1,0 +1,11 @@
+*{margin: 0; padding: 0;}
+
+.HomeIntro{
+	
+	top:25%;
+}
+.Listmenu{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 6px;
+}

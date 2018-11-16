@@ -8,21 +8,38 @@
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="vendor/font-awesome.css">
  	<link rel="stylesheet" href="Common.css">
+ 	<link rel="stylesheet" href="Home.css">
 </head>
 <body >
-	<div class="BigBoss">
+
+	<div class="BigBoss container-fluid">
 		<div class="BGimage">
 			<img src="image/BG .svg" alt="">
 		</div>
 
-		<div class="BGsidenav">
+		<div class="Sidenav" id="mySidenav">
+			<div class="BGsidenav" ></div>
+			<span class="logo-ic" style="cursor:pointer" onclick="GoHome()"><img src="image/LOGO-ic.png" alt=""></span>
 			<p class="pageTitle">Web portfolio</p>
-			<span class="openButton menunav" onclick="openNav()"><img src="image/menu.png" alt=""></span>
+			<span class="openButton menunav" style="cursor:pointer" onclick="openNav()"><img src="image/menu.png" alt=""></span>
 		</div>
-
-		<div class="container-fluid height100">
-			<div class="row height100">
-				<div class='col-sm-6 height100'></div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6 push-sm-2 HomeIntro">
+					<div style="margin-bottom: 68px">
+						<h2 class="Myname">NHUNGMY</h2>
+						<p>UI/UX Designer</p>
+					</div6
+					<div class="Menu" style="width:340px;height: 220px">
+						<span class="Listmenu">About me</span>
+						<span class="Listmenu">Visit my work</span>
+						<span class="Listmenu">Take a rest</span>
+						<span class="Listmenu">Contact to me</span>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<img src="image/LOGO.png" alt="">
+				</div>
 			</div>
 		</div>
 	</div>
