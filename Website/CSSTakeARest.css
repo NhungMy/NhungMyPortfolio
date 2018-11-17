@@ -8,8 +8,8 @@
   z-index: 1;
   top: 90px;
   left: 180px;
-  width: 540px;
-  background-image: -webkit-linear-gradient(top, white, rgba(255, 255, 255, 0.7));
+  width: 37.5%;
+
 }
 
 img {
@@ -37,19 +37,38 @@ img {
 @media screen and (max-width: 700px) {
   .GridButton {
     position: fixed;
-    top: 120px;
     right: 24px;
   }
 
   .TextTakeARest {
     position: fixed;
-    padding-top: 120px;
-    left: 16px;
+    right: 16px;
+    left: 0;
     width: 100%;
+    top:0;
+    padding:104px 16px 0 16px;
+    z-index: 0;
+    background-image: -webkit-linear-gradient(top, white, rgba(255, 255, 255, 0.7));
   }
 
   .firstimage {
     margin-top: 240px;
   }
+  .content-image{
+  	position: absolute;
+  	z-index: -3;
+  }
+
 }
+
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+ 	.firstimage {
+    margin-top: 240px;
+  }
 }
+
+
+
+
+
+
