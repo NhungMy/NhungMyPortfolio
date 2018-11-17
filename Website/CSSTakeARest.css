@@ -1,50 +1,55 @@
-*{margin: 0; padding: 0;}
-
-.TextTakeARest{
-	position: fixed;
-	z-index: 1;
-	top: 90px;
-	left: 180px;
-	width: 540px;
-	background-image: -webkit-linear-gradient(top, white, rgba(255,255,255,0.7));
-}
-img{
-	width: 100%;
-}
-.GridButton{
-	width: 20px;
-	position: fixed;
-	top: 90px;
-	right:55px;
-	z-index: 1;
-}
-.container-fullimage{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.container-fullimage img{
-	padding: 10% 0 5% 0;
+.TextTakeARest {
+  position: fixed;
+  z-index: 1;
+  top: 90px;
+  left: 180px;
+  width: 540px;
+  background-image: -webkit-linear-gradient(top, white, rgba(255, 255, 255, 0.7));
+}
+
+img {
+  width: 100%;
+}
+
+.GridButton {
+  width: 20px;
+  position: fixed;
+  top: 90px;
+  right: 55px;
+  z-index: 1;
+}
+
+.container-fullimage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-fullimage img {
+  padding: 10% 0 5% 0;
 }
 
 @media screen and (max-width: 700px) {
+  .GridButton {
+    position: fixed;
+    top: 120px;
+    right: 24px;
+  }
 
-	.GridButton{
-		position: fixed;
-		top:120px;
-		right: 24px;
-	}	
+  .TextTakeARest {
+    position: fixed;
+    padding-top: 120px;
+    left: 16px;
+    width: 100%;
+  }
 
-	.TextTakeARest{
-	position: fixed;
-	padding-top:120px;
-	left: 16px;
-	width: 100%;
-	}
-
-	.firstimage{
-		margin-top: 240px;
-	}
-	}
+  .firstimage {
+    margin-top: 240px;
+  }
+}
 }
