@@ -1,0 +1,27 @@
+*{margin: 0; padding: 0;}
+
+
+.about-me{
+	overflow: hidden;
+}
+
+.container-image-me{
+	margin-top:5%;
+	left: 0;
+}
+
+.container-image-me img{
+	width: 100%;
+}
+
+.text-about-me{
+	margin-top:10%;
+}
+
+@media screen and (max-width: 700px) {
+
+	.container-image-me{
+		margin-top: 20%;
+	}
+
+}
