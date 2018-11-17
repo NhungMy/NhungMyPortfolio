@@ -1,62 +1,51 @@
-*{margin: 0; padding: 0;}
+* {
+  margin: 0;
+  padding: 0;
+}
 
 .HomeIntro {
-	margin-top: 10%;
+  margin-top: 10%;
 }
-.HomeIntro div{
-	margin-bottom: 68px;
-	}
-#HomeLogo {
-	margin-top: 24%;
+
+.Menu {
+	margin-top: 30px;
 }
 
 .Listmenu {
-	display: block;
-	margin-top: 10px;
-	margin-bottom: 6px;
+  display: block;
+  margin-top: 20px;
 }
 
-.container-logo{
-	width: 360px;
-	height: 360px;
-}
-@media screen and (max-width: 700px) {
-	.container-logo{
-	width: 240px;
-	height: 240px;
+#ContainerLogo {
+	width: 60%;
+	height: 60%;
+	position: relative;
+	margin-top: 150px;
+	margin-right: 10%
 	float: right;
-	}
-	.HomeIntro {
-	margin-top: 30%;
-	}
-	.HomeIntro div{
-	margin-bottom: 36px;
-	}
-	#HomeLogo {
-	margin-top: 0;
-	bottom:56px;
-	}
+}
+
+#ContainerLogo img {
+  width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
-	.container-logo{
-	width: 360px;
-	height: 360px;
-	position: fixed;
-	top:55%;
-	}
-	.HomeIntro {
-	margin-top: 45%;
-	}
-	.HomeIntro div{
-	margin-bottom: 68px;
-	}
-	#HomeLogo {
-	margin-top: 0;
-	bottom: 36px;
-	}
-
+  .HomeIntro {
+    margin-top: 15%;
+  }
 }
-.container-logo img{
-	width: 100%;
+
+@media screen and (max-width: 700px) {
+	.HomeIntro {
+		margin-top: 30%;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	#ContainerLogo {
+		width: 200px;
+		height: : 200px;
+		margin-top: 0%;
+		float: left;
+	}
 }

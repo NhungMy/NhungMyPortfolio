@@ -1,50 +1,57 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+
+<head>
 	<title> Example </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
- 	<script type="text/javascript" src="CSSCommon.js"></script>
+	<script type="text/javascript" src="JSCommon.js"></script>
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="vendor/font-awesome.css">
- 	<link rel="stylesheet" href="CSSCommon.css">
- 	<link rel="stylesheet" href="CSSHome.css">
+	<link rel="stylesheet" href="CSSCommon.css">
+	<link rel="stylesheet" href="CSSHome.css">
 </head>
-<body >
 
-	<div class="BigBoss ">
+<body>
+
+	<div class="BigBoss">
 		<div class="BGimage">
 			<img src="image/BG .svg" alt="">
 		</div>
 
-		<div class="Sidenav" id="mySidenav">
-			<div class="BGsidenav" ></div>
-			<a href="Home.html" class="logo-ic" style="cursor:pointer" onclick="GoHome()"><img src="image/LOGO-ic.png" alt=""></a>
-			<p class="pageTitle">Web portfolio</p>
-			<span class="openButton menunav" style="cursor:pointer" onclick="openNav()"><img src="image/menu.png" alt=""></span>
+		<div id="mySidenav" class="Sidenav">
+			<a href="Home.html" class="logo-ic" style="cursor:pointer"><img src="image/LOGO-ic.png" alt=""></a>
+			<p id="myPageTitle" class="pageTitle">Web portfolio</p>
+			<span class="openButton menunav" style="cursor:pointer" onclick="javascript:openNav()"><img src="image/menu.png" alt=""></span>
 		</div>
 
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-6 push-sm-2 HomeIntro">
+
 					<div>
-						<h2 class="Myname">NHUNGMY</h2>
+						<h2 id="MyName">NHUNGMY</h2>
 						<p>UI/UX Designer</p>
 					</div>
-					<div class="Menu" style="width:340px;height: 220px" >
+
+					<div class="Menu" style="width:340px; height: 220px">
 						<a href="About.html" class="Listmenu">About me</a>
 						<a href="" class="Listmenu">Visit my work</a>
 						<a href="" class="Listmenu">Take a rest</a>
 						<a href="" class="Listmenu">Contact to me</a>
 					</div>
+
 				</div>
-				<div class="col-sm-6" id="HomeLogo">
-					<div class="container-logo">
+
+				<div class="col-sm-6">
+					<div id="ContainerLogo">
 						<img src="image/LOGO.png" alt="">
-					</div>				
+					</div>
 				</div>
 			</div>
 		</div>
+
 	</div>
 
 </body>
