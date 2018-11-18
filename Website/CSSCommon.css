@@ -1,122 +1,128 @@
-*{margin: 0; padding: 0;}
+* {
+  margin: 0;
+  padding: 0;
+}
 
 /* The side navigation menu */
-
 .BigBoss {
-	position: relative;
-	width: 100%;
-	height: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .BGimage {
-    position: fixed;
-    width: 100%;
-    height: 100%;
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
 
 .Sidenav {
-    position: fixed;
-    top:0;
-    left: 0;
-    z-index: 1;
-    width: 120px;
-    height: 100%;
-		background-image: -webkit-linear-gradient(left, white, rgba(255,255,255,0.7));
-		border-right: 1px solid #eee;
-		transition: 0.5s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 120px;
+  height: 100%;
+  background-image: -webkit-linear-gradient(left, white, rgba(255, 255, 255, 0.7));
+  border-right: 1px solid #eee;
 }
 
 @media screen and (max-width: 700px) {
-
-    .Sidenav {
-    	width: 100%;
-    	height: 80px;
-    	position: fixed;
-      top: 0px;
-			border-bottom: 1px solid #eee;
-    }
-
-		.logo-ic {
-    	position: absolute;
-    	top: -16px;
-    	right: 16px;
-    	z-index: 3;
-    	width: 36px;
-    	height: 36px;
-		}
-
-		.Sidenav .pageTitle {
-        position: absolute;
-				left: 50%;
-        top:50%;
-        width: 128px;
-        margin-left: -64px;
-        height: 24px;
-        margin-top: -12px;
-    		z-index: 4;
-    		display: block;
-    		-webkit-transform: rotate(0deg);
-    		text-transform: uppercase;
-			}
-
-			.Sidenav .menunav {
-	    	position: absolute;
-        bottom: 0;
-	    	top: 24px;
-        left:16px;
-	    	z-index: 5;
-			}
-
-		}
-
-.logo-ic img{
+  .Sidenav {
     width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid #eee;
+  }
+
+	#reset-this-root {
+    all: initial;
+    * {
+        all: unset;
+    }
+}
+
+  .logo-ic {
+    position: absolute;
+    top: -16px;
+    right: 16px;
+    z-index: 3;
+    width: 36px;
+    height: 36px;
+  }
+
+  .Sidenav .pageTitle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 128px;
+    margin-left: -64px;
+    height: 24px;
+    margin-top: -12px;
+    z-index: 4;
+    display: block;
+    -webkit-transform: rotate(0deg);
+    text-transform: uppercase;
+  }
+
+  .Sidenav .menunav {
+    position: absolute;
+    bottom: 0;
+    top: 24px;
+    left: 16px;
+    z-index: 5;
+  }
+}
+
+.logo-ic img {
+  width: 100%;
 }
 
 .logo-ic {
-    position: fixed;
-    margin-top: 40px;
-    margin-left: 36px;
-    z-index: 3;
-    }
+  position: fixed;
+  margin-top: 40px;
+  margin-left: 36px;
+  z-index: 3;
+}
 
 .pageTitle {
-    position: fixed;
-    top:50%;
-    z-index: 4;
-    display: block;
-    -webkit-transform: rotate(-90deg);
-    text-transform: uppercase;
-    margin:0;
-    height: 24px;
-    margin-left: -12px;
+  position: fixed;
+  top: 50%;
+  z-index: 4;
+  display: block;
+  -webkit-transform: rotate(-90deg);
+  text-transform: uppercase;
+  margin: 0;
+  height: 24px;
+  margin-left: -12px;
 }
 
 .menunav {
-    position: fixed;
-    bottom: 24px;
-    left: 42px;
-    z-index: 5;
+  position: fixed;
+  bottom: 24px;
+  left: 42px;
+  z-index: 5;
 }
 
 .closeButton {
-    bottom: 34px;
+  bottom: 34px;
 }
 
 .sidenav a {
-    display:block;
-    padding: 48px 60px;
+  display: block;
+  padding: 48px 60px;
 }
 
 .TestSide {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
