@@ -16,16 +16,19 @@
 <body>
 
 	<div class="BigBoss">
-		<div class="BGimage">
-			<img src="image/BG .svg" alt="">
-		</div>
 
+		<div class="BGimage" id="myBGImage"></div>
 		<div id="mySidenav" class="Sidenav">
 			<a href="Home.html" class="logo-ic" style="cursor:pointer"><img src="image/LOGO-ic.png" alt=""></a>
 			<p id="myPageTitle" class="pageTitle">Web portfolio</p>
-			<span class="openButton menunav" style="cursor:pointer" onclick="javascript:openNav()"><img src="image/menu.png" alt=""></span>
+			<span class="openButton menunav" id="myButtonNavi" style="cursor:pointer" onclick="openNav()"><img src="image/menu.png" alt=""></span>
+			<div id="mySidenavItem" class="sidenavItem">
+				<a href="About.html" class="Listmenu">About me</a>
+				<a href="" class="Listmenu">Visit my work</a>
+				<a href="TakeARest.html" class="Listmenu">Take a rest</a>
+				<a href="" class="Listmenu">Contact to me</a>
+			</div>
 		</div>
-
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-6 push-sm-2 HomeIntro">
