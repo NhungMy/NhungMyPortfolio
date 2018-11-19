@@ -4,6 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="testpopup.css">
 <script type="text/javascript" src="testpopup.js"></script>
+<script type="text/javascript" src="test.js"></script>
+
 </head>
 
 <body>
@@ -11,7 +13,7 @@
 <h2>Animated Modal with Header and Footer</h2>
 
 <!-- Trigger/Open The Modal -->
-<button id="myBtn">Open Modal</button>
+<button id="myBtn" onclick="openPopup()">Open Modal</button>
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -19,7 +21,7 @@
   <!-- Modal content -->
   <div class="modal-content">
     <div class="modal-header">
-      <span class="close">&times;</span>
+      <span onclick="closePopup()" id="close" >&times;</span>
       <h2>Modal Header</h2>
     </div>
     <div class="modal-body">

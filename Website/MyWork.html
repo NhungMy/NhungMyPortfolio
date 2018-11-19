@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
  	<script type="text/javascript" src="CSSCommon.js"></script>
- 	<!-- <script type="text/javascript" src="functionpopup.js"></script> -->
+ 	<script type="text/javascript" src="functionpopup.js"></script>
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="vendor/font-awesome.css">
  	<link rel="stylesheet" href="CSSCommon.css">
@@ -29,17 +29,12 @@
 				<p class="text-nhungmy">NHUNGMY</p>
 				<p class="text-uiux">UI/UX DESIGNER</p>
 			</div>
-			<div id="list-project" class="col-md-8 col-xs-10 ">
+			<div id="list-project" class="col-md-8 col-xs-10 listProject">
 				<div class="project-1 firt-project">
 					<h6 class="name-project">
 						YOLO Sing Application
 					</h6>
-					<span class="img-project" style="cursor:pointer" onclick="document.getElementById("project-yolo").style.display='block'"><img src="image/test yolo1-02.png" alt=""></span>
-				</div>
-
-				<div id="project-yolo" class="popup-project">
-					<span onclick="document.getElementById('project-yolo').style.display ='none'" class="close">&times;</span>
-					<img class="project-img" src="image/Group 4.png" alt="">
+					<span class="img-project" style="cursor:pointer" onclick="openyolo()"><img src="image/test yolo1-02.png" alt=""></span>
 				</div>
 
 				<div class="project-1">
@@ -75,54 +70,10 @@
 			</div>
 		</div>
 	</div>
-	<!-- Trigger/Open The Modal -->
-<button id="myBtn" style="padding:20px 0 240px 240px ;">Open Modal</button>
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header">
-      <span class="close">&times;</span>
-      <h2>Modal Header</h2>
-    </div>
-    <div class="modal-body">
-      <p>Some text in the Modal Body</p>
-      <p>Some other text...</p>
-    </div>
-    <div class="modal-footer">
-      <h3>Modal Footer</h3>
-    </div>
-  </div>
-
-</div>
-
-<script>
-	// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
+	<div id="project-yolo" class="popupProject projectyolo">
+		<span onclick="closeyolo()" class="close closeyolo">&times;</span>
+		<img class="project-img" src="image/Group 4.png" alt="">
+	</div>
 </body>
 
 </html>
