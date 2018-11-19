@@ -1,0 +1,15 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.contactme{
+	position: fixed;
+	top:30%;
+}
+
+.icon-network{
+	display: flex;
+	justify-content: space-between;
+	padding-top:72px;
+}

@@ -34,7 +34,7 @@ img {
   padding: 10% 0 5% 0;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
   .GridButton {
     position: fixed;
     right: 24px;
@@ -61,7 +61,7 @@ img {
 
 }
 
-@media screen and (min-width: 700px) and (max-width: 1024px) {
+@media screen and (min-width: 720px) and (max-width: 1024px) {
  	.firstimage {
     margin-top: 240px;
   }
