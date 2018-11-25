@@ -44,7 +44,7 @@
   border: none;
 }
 .Sidenav.open .Listmenu.active:before {
-  bottom: 50%;
+  bottom: 47%;
   content: "";
   left: 16px;
   width: 100%;
