@@ -40,7 +40,18 @@
 .Sidenav.open .sidenavItem {
   visibility: visible;
 }
-
+.Sidenav.open .Listmenu:before {
+  border: none;
+}
+.Sidenav.open .Listmenu.active:before {
+  bottom: 47%;
+  content: "";
+  left: 16px;
+  width: 100%;
+  border: none;
+  height: 1px;
+  background: #3d3d3d;
+}
 @keyframes openSideMenu {
   0% {
     width: 0;
@@ -59,6 +70,16 @@
 .sidenavItem a {
   display: block;
   padding: 34px;
+  text-decoration: none;
+}
+
+.sidenavItem .active p {
+  margin-bottom: 0;
+  background: #fff;
+  z-index: 1000;
+  position: relative;
+  display: inline-block;
+  padding: 0px 16px;
 }
 
 .logo-ic img {
@@ -186,4 +207,40 @@
     width: 20px;
   }
 
+  .Sidenav .pageTitle:before,
+  .Sidenav .pageTitle:after{
+    all: unset;
+  }
+  .Listmenu:before {
+    all: unset!important;
+  }
+  .Sidenav.open {
+    width: 100%;
+    animation: unset;
+  }
+  .Sidenav.open .sidenavItem {
+    left: 0;
+    width: 100%;
+    background-image: -webkit-linear-gradient(left, white, rgba(255, 255, 255, 0.7));
+    top: 15%;
+    animation-name: openChildMenu;
+    animation-duration: 0.6s;
+  }
+  .Sidenav.open  .sidenavItem a {
+    padding: 16px;
+    text-align: center;
+  }
+  .sidenavItem .active p {
+    padding: 0;
+  }
+}
+
+
+@keyframes openChildMenu {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 15%;
+  }
 }
