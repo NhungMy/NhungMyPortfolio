@@ -1,6 +1,6 @@
 *{
     margin: 0; padding: 0;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif!important;
 
 }
 
@@ -109,7 +109,9 @@
 }
 
 .pageTitle:before,
-.pageTitle:after {
+.pageTitle:after,
+.pageTitle.takeARest:before,
+.pageTitle.takeARest:after {
   content: '';
   height: 1px;
   width: 110px;
