@@ -44,11 +44,10 @@ $(document).ready(function() {
 
   //auto hide menu when click anywhere
   $(document).on("click", function(e) {
-    if ($(e.target).closest("#myButtonNavi").length) {
-      $("#mySidenav").addClass("open");
-      $(".img-action-menu").attr("src", "image/arrow-menu.png");
-      isShowSideBar = true;
-    } else if (!$(e.target).closest("#myButtonNavi").length) {
+    if (
+      !$(e.target).closest("#myButtonNavi").length ||
+      !$(e.target).closest("#mySidenav").length
+    ) {
       $("#mySidenav").removeClass("open");
       $(".img-action-menu").attr("src", "image/menu.png");
       isShowSideBar = false;
