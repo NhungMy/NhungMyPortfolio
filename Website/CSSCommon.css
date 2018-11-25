@@ -36,10 +36,12 @@
   width: 50%;
   animation-name: openSideMenu;
   animation-duration: 0.6s;
-} 
+}  
+
 .Sidenav.open .sidenavItem {
   visibility: visible;
 }
+
 .Sidenav.open .Listmenu:before {
   border: none;
 }
