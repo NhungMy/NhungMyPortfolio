@@ -40,7 +40,18 @@
 .Sidenav.open .sidenavItem {
   visibility: visible;
 }
-
+.Sidenav.open .Listmenu:before {
+  border: none;
+}
+.Sidenav.open .Listmenu.active:before {
+  bottom: 50%;
+  content: "";
+  left: 16px;
+  width: 100%;
+  border: none;
+  height: 1px;
+  background: #3d3d3d;
+}
 @keyframes openSideMenu {
   0% {
     width: 0;
@@ -59,6 +70,15 @@
 .sidenavItem a {
   display: block;
   padding: 34px;
+  text-decoration: none;
+}
+.sidenavItem .active p {
+  margin-bottom: 0;
+  background: #fff;
+  z-index: 1000;
+  position: relative;
+  display: inline-block;
+  padding: 0px 16px;
 }
 @media screen and (max-width: 700px) {
   .Sidenav {
