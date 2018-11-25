@@ -46,6 +46,23 @@
 
 	.container-image-me{
 		margin-top: 20%;
-	}
+  }
+
+  .pageTitle {
+    left: 50%;
+  }
+
+  .pageTitle:before,
+  .pageTitle:after {
+    width: 20px;
+  }
+  
+  .pageTitle:before {
+    right: 33%;
+  }
+
+  .pageTitle:after {
+    left: -15%;
+  }
 
 }
