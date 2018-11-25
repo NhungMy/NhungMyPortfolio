@@ -83,7 +83,19 @@
   display: inline-block;
   padding: 0px 16px;
 }
-
+.Listmenu {
+  display: block;
+	margin-top: 20px;
+	position: relative;
+}
+.Listmenu:before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  border: 1px dashed #999;
+  right: 0;
+  bottom: 10px;
+}
 .logo-ic img {
   width: 100%;
 }
@@ -143,7 +155,6 @@
   left: 42px;
   z-index: 5;
 }
-
 .closeButton {
   bottom: 34px;
 }
@@ -158,7 +169,6 @@
     display: block;
     padding: 48px 60px;
 }
-
 @media screen and (max-width: 700px) {
   .Sidenav {
     position: fixed;
