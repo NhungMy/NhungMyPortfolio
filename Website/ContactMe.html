@@ -1,65 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Example</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script type="text/javascript" src="vendor/bootstrap.js"></script>
-    <script type="text/javascript" src="CSSCommon.js"></script>
-    <link rel="stylesheet" href="vendor/bootstrap.css" />
-    <link rel="stylesheet" href="vendor/font-awesome.css" />
-    <link rel="stylesheet" href="CSSCommon.css" />
-    <link rel="stylesheet" href="CSSContactMe.css" />  
-    <link
-      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Nunito+Sans"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="BigBoss ">
-      <div class="Sidenav" id="mySidenav">
-        <div class="BGsidenav"></div>
-        <a
-          href="Home.html"
-          class="logo-ic"
-          style="cursor:pointer"
-          onclick="GoHome()"
-          ><img src="image/LOGO-ic.png" alt=""
-        /></a>
-        <p class="pageTitle">Contact Me</p>
-        <span
-          class="openButton menunav"
-          style="cursor:pointer"
-          onclick="openNav()"
-          ><img src="image/menu.png" alt=""
-        /></span>
-      </div>
 
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-5 push-md-3 col-sm-8 push-sm-2 contactme">
-            <p>
-              Contact me to start a conversation or a new relationship. <br />
-              Visit my network to see more
-            </p>
-            <h3 style="padding-top:20px; color: #6b4aff;">
-              truongmynhung162@gmail.com
-            </h3>
-            <div class="icon-network">
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-behance"></i>
-              <i class="fab fa-dribbble"></i>
-              <i class="fab fa-facebook"></i>
-              <i class="fab fa-github"></i>
-            </div>
-          </div>
-          <div></div>
-        </div>
+<head>
+  <title>Example</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script type="text/javascript" src="vendor/bootstrap.js"></script>
+  <script type="text/javascript" src="JSCommon.js"></script>
+  <link rel="stylesheet" href="vendor/bootstrap.css" />
+  <link rel="stylesheet" href="vendor/font-awesome.css" />
+  <link rel="stylesheet" href="CSSCommon.css" />
+  <link rel="stylesheet" href="CSSContactMe.css" />
+  <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="BigBoss ">
+    <div class="Sidenav" id="mySidenav">
+      <div class="BGsidenav"></div>
+      <a href="Home.html" class="logo-ic" style="cursor:pointer" onclick="GoHome()"><img src="image/LOGO-ic.png" alt="" /></a>
+      <p id="myPageTitle" class="pageTitle">Contact Me</p>
+      <span class="openButton menunav" id="myButtonNavi" style="cursor:pointer"><img class="img-action-menu" src="image/menu.png"
+          alt="" /></span>
+      <div id="mySidenavItem" class="sidenavItem">
+        <a href="About.html" class="Listmenu">
+          <p>About me</p>
+        </a>
+        <a href="MyWork.html" class="Listmenu">
+          <p>Visit my work</p>
+        </a>
+        <a href="TakeARest.html" class="Listmenu">
+          <p>Take a rest</p>
+        </a>
+        <a href="ContactMe.html" class="Listmenu active">
+          <p>Contact to me</p>
+        </a>
       </div>
     </div>
-  </body>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 push-md-3 col-sm-8 push-sm-2 contactme">
+          <p>
+            Contact me to start a conversation or a new relationship. <br />
+            Visit my network to see more
+          </p>
+          <h3 style="padding-top:20px; color: #6b4aff;">
+            truongmynhung162@gmail.com
+          </h3>
+          <div class="icon-network">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-behance"></i>
+            <i class="fab fa-dribbble"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-github"></i>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>

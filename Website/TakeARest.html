@@ -1,29 +1,48 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+
+<head>
 	<title> Example </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
- 	<script type="text/javascript" src="JSCommon.js"></script>
+	<script type="text/javascript" src="JSCommon.js"></script>
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="vendor/font-awesome.css">
- 	<link rel="stylesheet" href="CSSCommon.css">
-	 <link rel="stylesheet" href="CSSTakeARest.css">
-	 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="CSSCommon.css">
+	<link rel="stylesheet" href="CSSTakeARest.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 </head>
-<body >
+
+<body>
 
 	<div class="BigBoss ">
 		<div class="Sidenav" id="mySidenav">
 			<a href="Home.html" class="logo-ic" style="cursor:pointer" onclick="GoHome()"><img src="image/LOGO-ic.png" alt=""></a>
-			<p class="pageTitle takeARest">Take a rest</p>
-			<span class="openButton menunav" style="cursor:pointer" onclick="openNav()"><img src="image/menu.png" alt=""></span>
+			<p id="myPageTitle" class="pageTitle takeARest">Take a rest</p>
+			<span class="openButton menunav" id="myButtonNavi" style="cursor:pointer"><img class="img-action-menu" src="image/menu.png"
+				 alt="" /></span>
+			<div id="mySidenavItem" class="sidenavItem">
+				<a href="About.html" class="Listmenu">
+					<p>About me</p>
+				</a>
+				<a href="MyWork.html" class="Listmenu">
+					<p>Visit my work</p>
+				</a>
+				<a href="TakeARest.html" class="Listmenu active">
+					<p>Take a rest</p>
+				</a>
+				<a href="ContactMe.html" class="Listmenu">
+					<p>Contact to me</p>
+				</a>
+			</div>
 		</div>
 
 		<div class="TextTakeARest">
-				<h3>Take a rest</h3>
-				<p>Beside design UI/UX, I like others, such as motion or illustration … I’d like to show out my mind through my designs. <br>
-				Take a rest and look around my designs.  </p>
+			<h3>Take a rest</h3>
+			<p>Beside design UI/UX, I like others, such as motion or illustration … I’d like to show out my mind through my
+				designs. <br>
+				Take a rest and look around my designs. </p>
 		</div>
 
 		<div class="GridButton">

@@ -1,24 +1,42 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+
+<head>
 	<title> Example </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
- 	<script type="text/javascript" src="JSCommon.js"></script>
+	<script type="text/javascript" src="JSCommon.js"></script>
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="vendor/font-awesome.css">
- 	<link rel="stylesheet" href="CSSCommon.css">
-	 <link rel="stylesheet" href="CSSAbout.css">
-	 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="CSSCommon.css">
+	<link rel="stylesheet" href="CSSAbout.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 </head>
-<body >
+
+<body>
 
 	<div class="BigBoss ">
 		<div id="mySidenav" class="Sidenav">
-			<div class="BGsidenav" ></div>
+			<div class="BGsidenav"></div>
 			<a href="Home.html" class="logo-ic" style="cursor:pointer" onclick="GoHome()"><img src="image/LOGO-ic.png" alt=""></a>
-			<p class="pageTitle">About me</p>
-			<span class="openButton menunav" style="cursor:pointer" onclick="openNav()"><img src="image/menu.png" alt=""></span>
+			<p id="myPageTitle" class="pageTitle">About me</p>
+			<span class="openButton menunav" id="myButtonNavi" style="cursor:pointer"> <img class="img-action-menu" src="image/menu.png"
+				 alt="" /></span>
+			<div id="mySidenavItem" class="sidenavItem">
+				<a href="About.html" class="Listmenu active">
+					<p>About me</p>
+				</a>
+				<a href="MyWork.html" class="Listmenu">
+					<p>Visit my work</p>
+				</a>
+				<a href="TakeARest.html" class="Listmenu">
+					<p>Take a rest</p>
+				</a>
+				<a href="ContactMe.html" class="Listmenu">
+					<p>Contact to me</p>
+				</a>
+			</div>
 		</div>
 
 		<div class="container-fluid">
@@ -28,9 +46,11 @@
 				</div>
 				<div class="col-lg-4 col-md-5 text-about-me">
 					<h3>I’m TRAN THI MY NHUNG</h3>
-					<p>Beginning in Design in 2014, having studied and experienced in various fields, I have now found my passion and ability in the UI/UX design.</p>
-					<p>With me, a design is not only to beautify the interface, it is important to the user experience. A product, an application to succeed, the condition is UI must be beautiful, but enough conditions are UX also good.<br>
-					I hope to create better value with the applications I create. </p>
+					<p>Beginning in Design in 2014, having studied and experienced in various fields, I have now found my passion and
+						ability in the UI/UX design.</p>
+					<p>With me, a design is not only to beautify the interface, it is important to the user experience. A product, an
+						application to succeed, the condition is UI must be beautiful, but enough conditions are UX also good.<br>
+						I hope to create better value with the applications I create. </p>
 				</div>
 				<div class="col-lg-1 col-md-0"></div>
 			</div>

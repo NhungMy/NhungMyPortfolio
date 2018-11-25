@@ -1,6 +1,5 @@
 *{margin: 0; padding: 0;}
 
-
 .about-me{
 	overflow: hidden;
 }
@@ -8,6 +7,7 @@
 .pageTitle {
 	margin-left: 10px;
 }
+
 .pageTitle:before,
 .pageTitle:after{
   content: '';
