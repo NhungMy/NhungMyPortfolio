@@ -165,4 +165,18 @@
     width: 160px;
   }
 
+  .pageTitle.takeARest:before{
+    right: -20%;
+  }
+  .pageTitle.takeARest:after {
+    left: -20%;
+  }
+
+  .pageTitle:before,
+  .pageTitle:after,
+  .pageTitle.takeARest:before,
+  .pageTitle.takeARest:after {
+    width: 50px;
+  }
+
 }
