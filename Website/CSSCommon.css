@@ -52,15 +52,6 @@
     border-bottom: 1px solid #eee;
   }
 
-  .logo-ic {
-    position: fixed;
-    top: -16px;
-    right: 16px;
-    z-index: 3;
-    width: 36px;
-    height: 36px;
-  }
-
   .Sidenav .pageTitle {
     position: fixed;
     left: 50%;
@@ -81,6 +72,14 @@
     top: 24px;
     left: 16px;
   }
+
+  .logo-ic {
+    position: fixed;
+    top: 10px;
+    right: 16px;
+    margin-left: 0%;
+  }
+
 }
 
 .logo-ic img {
