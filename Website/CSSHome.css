@@ -13,7 +13,16 @@
 
 .Listmenu {
   display: block;
-  margin-top: 20px;
+	margin-top: 20px;
+	position: relative;
+}
+.Listmenu:before {
+	position: absolute;
+	content: "";
+	width: 50%;
+	border: 1px dashed #999;
+	right: 0;
+	bottom: 10px;
 }
 
 #ContainerLogo {
@@ -21,7 +30,7 @@
 	height: 60%;
 	position: relative;
 	margin-top: 150px;
-	margin-right: 10%
+	margin-right: 10%;
 	float: right;
 }
 
@@ -39,12 +48,16 @@
 	.HomeIntro {
 		margin-top: 30%;
 	}
+
+  .Menu {
+    width: 100%!important;
+  }
 }
 
 @media screen and (max-width: 575px) {
 	#ContainerLogo {
 		width: 200px;
-		height: : 200px;
+		height: 200px;
 		margin-top: 0%;
 		float: left;
 	}

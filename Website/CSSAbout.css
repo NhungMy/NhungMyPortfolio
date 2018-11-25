@@ -5,6 +5,29 @@
 	overflow: hidden;
 }
 
+.pageTitle {
+	margin-left: 10px;
+}
+.pageTitle:before,
+.pageTitle:after{
+  content: '';
+  height: 1px;
+  width: 110px;
+  background: #3d3d3d;
+  position: absolute;
+  display: block;
+}
+
+.pageTitle:before {
+  top: 50%;
+  right: -160%;
+}
+
+.pageTitle:after {
+  bottom: 50%;
+  left: -160%;
+}
+
 .container-image-me{
 	margin-top:5%;
 	left: 0;
@@ -18,10 +41,28 @@
 	margin-top:10%;
 }
 
+
 @media screen and (max-width: 700px) {
 
 	.container-image-me{
 		margin-top: 20%;
-	}
+  }
+
+  .pageTitle {
+    left: 50%;
+  }
+
+  .pageTitle:before,
+  .pageTitle:after {
+    width: 20px;
+  }
+  
+  .pageTitle:before {
+    right: 33%;
+  }
+
+  .pageTitle:after {
+    left: -15%;
+  }
 
 }

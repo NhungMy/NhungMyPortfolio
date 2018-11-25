@@ -4,8 +4,32 @@
 }
 
 .hidden-text{
-overflow: hidden;
+	overflow: hidden;
+}
 
+/*  -----Page Title------ */
+
+.pageTitle.mywork {
+	margin-left: 16px;
+}
+
+.pageTitle:before,
+.pageTitle:after,
+.pageTitle.mywork::before,
+.pageTitle.mywork.mywork::after {
+  content: '';
+  height: 1px;
+  width: 110px;
+  background: #3d3d3d;
+  position: absolute;
+  display: block;
+}
+
+.pageTitle.mywork:before{
+  right: -165%;
+}
+.pageTitle.mywork:after {
+  left: -165%;
 }
 
 .hidden-text p{

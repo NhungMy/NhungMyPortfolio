@@ -1,62 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript" src="vendor/bootstrap.js"></script>
+    <script type="text/javascript" src="JSCommon.js"></script>
+    <link rel="stylesheet" href="vendor/bootstrap.css" />
+    <link rel="stylesheet" href="vendor/font-awesome.css" />
+    <link rel="stylesheet" href="CSSCommon.css" />
+	<link rel="stylesheet" href="CSSHome.css" />
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+  </head>
 
-<head>
-	<title> Example </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type="text/javascript" src="vendor/bootstrap.js"></script>
-	<script type="text/javascript" src="JSCommon.js"></script>
-	<link rel="stylesheet" href="vendor/bootstrap.css">
-	<link rel="stylesheet" href="vendor/font-awesome.css">
-	<link rel="stylesheet" href="CSSCommon.css">
-	<link rel="stylesheet" href="CSSHome.css">
-</head>
+  <body>
+    <div class="BigBoss">
+      <div class="BGimage" id="myBGImage"></div>
+      <div id="mySidenav" class="Sidenav">
+        <a href="Home.html" class="logo-ic" style="cursor:pointer"
+          ><img src="image/LOGO-ic.png" alt=""
+        /></a>
+        <p id="myPageTitle" class="pageTitle">Web portfolio</p>
+        <span
+          class="openButton menunav"
+          id="myButtonNavi"
+          style="cursor:pointer"
+          ><img class="img-action-menu" src="image/menu.png" alt=""
+        /></span>
+        <div id="mySidenavItem" class="sidenavItem">
+          <a href="About.html" class="Listmenu active">
+			  <p>About me</p>
+		  </a>
+          <a href="" class="Listmenu">
+			  <p>Visit my work</p>
+		  </a>
+          <a href="TakeARest.html" class="Listmenu">
+			  <p>Take a rest</p>
+		  </a>
+          <a href="" class="Listmenu">
+			  <p>Contact to me</p>
+		  </a>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 push-sm-2 HomeIntro">
+            <div>
+              <h2 id="MyName">NHUNGMY</h2>
+              <p>UI/UX Designer</p>
+            </div>
 
-<body>
+            <div class="Menu" style="width:340px; height: 220px">
+              <a href="About.html" class="Listmenu">About me</a>
+              <a href="MyWork.html" class="Listmenu">Visit my work</a>
+              <a href="TakeARest.html" class="Listmenu">Take a rest</a>
+              <a href="ContactMe.html" class="Listmenu">Contact to me</a>
+            </div>
+          </div>
 
-	<div class="BigBoss">
-
-		<div class="BGimage" id="myBGImage"></div>
-		<div id="mySidenav" class="Sidenav">
-			<a href="Home.html" class="logo-ic" style="cursor:pointer"><img src="image/LOGO-ic.png" alt=""></a>
-			<p id="myPageTitle" class="pageTitle">Web portfolio</p>
-			<span class="openButton menunav" id="myButtonNavi" style="cursor:pointer" onclick="openNav()"><img src="image/menu.png" alt=""></span>
-			<div id="mySidenavItem" class="sidenavItem">
-				<a href="About.html" class="Listmenu">About me</a>
-				<a href="" class="Listmenu">Visit my work</a>
-				<a href="TakeARest.html" class="Listmenu">Take a rest</a>
-				<a href="" class="Listmenu">Contact to me</a>
-			</div>
-		</div>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-6 push-sm-2 HomeIntro">
-
-					<div>
-						<h2 id="MyName">NHUNGMY</h2>
-						<p>UI/UX Designer</p>
-					</div>
-
-					<div class="Menu" style="width:340px; height: 220px">
-						<a href="About.html" class="Listmenu">About me</a>
-						<a href="MyWork.html" class="Listmenu">Visit my work</a>
-						<a href="TakeARest.html" class="Listmenu">Take a rest</a>
-						<a href="ContactMe.html" class="Listmenu">Contact to me</a>
-					</div>
-
-				</div>
-
-				<div class="col-sm-6">
-					<div id="ContainerLogo">
-						<img src="image/LOGO.png" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-
+          <div class="col-sm-6">
+            <div id="ContainerLogo"><img src="image/LOGO.png" alt="" /></div>
+          </div>
+        </div>
+      </div>
 	</div>
-
-</body>
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </body>
 </html>
