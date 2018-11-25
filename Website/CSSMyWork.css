@@ -79,6 +79,11 @@ overflow: hidden;
 	top:160px;
 	}
 
+    .popupProject{
+        margin-top: 60px;
+        width: 100%;
+    }
+
 }
 
 
@@ -89,7 +94,7 @@ overflow: hidden;
     top: 7%;
     padding-top: 0;
     width: 80%;
-    height: 1000px;
+    height: 93%;
     overflow: auto;
     background-color: #fff;
     box-shadow: 2px 2px 20px 2px #75757594;
