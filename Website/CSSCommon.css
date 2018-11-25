@@ -71,7 +71,6 @@
   display: block;
   padding: 34px;
   text-decoration: none;
-  position: relative;
 }
 
 .sidenavItem .active p {
@@ -81,6 +80,11 @@
   position: relative;
   display: inline-block;
   padding: 0px 16px;
+}
+.Listmenu {
+  display: block;
+	margin-top: 20px;
+	position: relative;
 }
 .Listmenu:before {
   position: absolute;
