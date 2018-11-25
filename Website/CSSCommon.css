@@ -126,6 +126,15 @@
   bottom: 50%;
   left: -100%;
 }
+.pageTitle.takeARest {
+  margin-left: 10px;
+}
+.pageTitle.takeARest:before{
+  right: -123%;
+}
+.pageTitle.takeARest:after {
+  left: -123%;
+}
 .menunav {
   position: fixed;
   bottom: 24px;
