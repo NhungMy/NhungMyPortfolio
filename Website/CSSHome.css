@@ -16,15 +16,6 @@
 	margin-top: 20px;
 	position: relative;
 }
-.Listmenu:before {
-	position: absolute;
-	content: "";
-	width: 50%;
-	border: 1px dashed #999;
-	right: 0;
-	bottom: 10px;
-}
-
 #ContainerLogo {
 	width: 60%;
 	height: 60%;
