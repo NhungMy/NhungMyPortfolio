@@ -129,7 +129,7 @@
   left: -100%;
 }
 .pageTitle.takeARest {
-  margin-left: 10px;
+  margin-left: 4px;
 }
 .pageTitle.takeARest:before{
   right: -123%;
