@@ -213,4 +213,33 @@
   .Listmenu:before {
     all: unset!important;
   }
+  .Sidenav.open {
+    width: 100%;
+    animation: unset;
+  }
+  .Sidenav.open .sidenavItem {
+    left: 0;
+    width: 100%;
+    background-image: -webkit-linear-gradient(left, white, rgba(255, 255, 255, 0.7));
+    top: 15%;
+    animation-name: openChildMenu;
+    animation-duration: 0.6s;
+  }
+  .Sidenav.open  .sidenavItem a {
+    padding: 16px;
+    text-align: center;
+  }
+  .sidenavItem .active p {
+    padding: 0;
+  }
+}
+
+
+@keyframes openChildMenu {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 15%;
+  }
 }
