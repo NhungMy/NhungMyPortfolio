@@ -1,7 +1,6 @@
 *{
     margin: 0; padding: 0;
     font-family: 'Nunito Sans', sans-serif!important;
-
 }
 
 .BigBoss {
@@ -35,7 +34,6 @@
 .sidenavItem {
   position: fixed;
   z-index: 2;
-  /* width: 120px; */
   left: 60px;
   visibility: hidden;
 }
@@ -137,6 +135,7 @@
 .pageTitle.takeARest:after {
   left: -123%;
 }
+
 .menunav {
   position: fixed;
   bottom: 24px;
