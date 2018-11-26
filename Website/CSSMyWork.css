@@ -44,6 +44,10 @@ overflow: hidden;
 
 .name-project{
 	float: right;
+	font-size: 20px;
+}
+.day-project{
+	font-size: 14px;
 }
 
 
@@ -54,7 +58,7 @@ overflow: hidden;
 	}
 
 	.hidden-text p{
-		font-size: 36px;
+		font-size: 30px;
 		left:20%;
 	}
 
@@ -85,6 +89,14 @@ overflow: hidden;
 	top:160px;
 	}
 
+	.name-project{
+		float: right;
+		font-size: 14px;
+	}
+
+	.day-project{
+		font-size: 12px;
+	}
 }
 
 
