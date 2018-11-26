@@ -29,18 +29,24 @@ overflow: hidden;
 }
 
 .project-1{
-	margin-top:10%;
+	margin-top:15%;
 	z-index: 2;
 }
 
 .img-project{
 	display: block;
-	width: 80%;
+	width: 100%;
 }
 
 .img-project img{
 	width: 100%;
 }
+
+.name-project{
+	float: right;
+}
+
+
 @media screen and (min-width: 720px) and (max-width: 1024px) {
 
 	.img-project{
