@@ -4,32 +4,8 @@
 }
 
 .hidden-text{
-	overflow: hidden;
-}
+overflow: hidden;
 
-/*  -----Page Title------ */
-
-.pageTitle.mywork {
-	margin-left: 16px;
-}
-
-.pageTitle:before,
-.pageTitle:after,
-.pageTitle.mywork::before,
-.pageTitle.mywork.mywork::after {
-  content: '';
-  height: 1px;
-  width: 110px;
-  background: #3d3d3d;
-  position: absolute;
-  display: block;
-}
-
-.pageTitle.mywork:before{
-  right: -165%;
-}
-.pageTitle.mywork:after {
-  left: -165%;
 }
 
 .hidden-text p{
@@ -103,33 +79,22 @@
 	top:160px;
 	}
 
-    .popupProject{
-        margin-top: 60px;
-        width: 100%;
-    }
-
 }
 
 
 .popupProject{
+	display:none;
     position: fixed;
     z-index: 5;
-    right: 1%;
-    top: 7%;
+    right: 10%;
+    top:0;
     padding-top: 0;
     width: 80%;
-    height: 93%;
+    height: ;
     overflow: auto;
     background-color: #fff;
     box-shadow: 2px 2px 20px 2px #75757594;
-    border-radius: 10px;
 }
-
-.projectyolo{
-    display:none;
-}
-
-.popupProject::-webkit-scrollbar { width: 0 !important }
 
 .project-img{
 	position: absolute;
@@ -137,14 +102,14 @@
 	width:100%;
 }
 
-.close {
-    position: fixed;
+/*.close {
+    position: absolute;
     right: 25px;
+    top: 0;
     color: #000;
-    z-index: 10;
     font-size: 35px;
     font-weight: bold;
-}
+}*/
 
 
 

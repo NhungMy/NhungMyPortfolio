@@ -28,14 +28,14 @@
 
 .contactme{
 	position: fixed;
-	top:30%;
+	top:25%;
 }
 
 .icon-network{
 	display: flex;
 	justify-content: space-between;
-	padding-top:72px;
+	padding-top:82px;
 }
 .icon-network i{
-	font-size: 44px;
+	font-size: 30px;
 }
