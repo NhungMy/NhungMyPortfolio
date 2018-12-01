@@ -38,7 +38,7 @@ overflow: hidden;
 	width: 100%;
 }
 
-.img-project img{
+.thumbnail-project img{
 	width: 100%;
 }
 
@@ -70,10 +70,6 @@ overflow: hidden;
 		margin-top: 120px;
 	}
 
-	.img-project{
-	width: 100%;
-	}
-
 	.hidden-text{
 		display: flex;
 
@@ -99,37 +95,51 @@ overflow: hidden;
 	}
 }
 
+.popupProject::-webkit-scrollbar { width: 0 !important }
 
 .popupProject{
 	display:none;
     position: fixed;
     z-index: 5;
-    right: 10%;
+    right: 8%;
     top:0;
     padding-top: 0;
-    width: 80%;
-    height: ;
+    width: 70%;
+    height: 800px;
     overflow: auto;
     background-color: #fff;
     box-shadow: 2px 2px 20px 2px #75757594;
+
 }
 
 .project-img{
-	position: absolute;
-	z-index: 1;
 	width:100%;
 }
 
-/*.close {
-    position: absolute;
-    right: 25px;
+.close {
+    position: fixed;
+    z-index: 2;
+    right: 10%;
     top: 0;
     color: #000;
     font-size: 35px;
     font-weight: bold;
-}*/
+}
 
 
+@media screen and (max-width: 720px) {
 
+	.popupProject{
+    right: 0px;
+    top:100px;
+    padding-top: 0px;
+    width: 100%;
+	}
+
+	.close {
+	right:16px;
+    top: 100px;
+	}
+}
 
 

@@ -2,6 +2,48 @@
     margin: 0; padding: 0;
     font-family: 'Nunito Sans', sans-serif!important;
 }
+
+.display1{
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.display2{
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.heading1{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.heading2{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.subheading{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.title{
+  font-size: 18px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.body{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.caption{
+  font-size: 14px;
+  font-weight: 600;
+}
+
 .fab {
   font-family: "Font Awesome 5 Brands"!important;
 }
