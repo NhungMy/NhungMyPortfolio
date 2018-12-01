@@ -4,12 +4,12 @@ $(document).ready(function() {
   $("#myButtonNavi").click(function() {
     if (isShowSideBar) {
       $("#mySidenav").removeClass("open");
-      $(".img-action-menu").attr("src", "image/menu.png");
+      $(".img-action-menu").attr("src", "image/Menu-ic.svg");
       isShowSideBar = false;
       document.getElementById("myPageTitle").style.display = "block";
     } else {
       $("#mySidenav").addClass("open");
-      $(".img-action-menu").attr("src", "image/arrow-menu.png");
+      $(".img-action-menu").attr("src", "image/Back-ic.svg");
       isShowSideBar = true;
       document.getElementById("myPageTitle").style.display = 'none';
     }
@@ -22,7 +22,7 @@ $(document).ready(function() {
       !$(e.target).closest("#mySidenav").length
     ) {
       $("#mySidenav").removeClass("open");
-      $(".img-action-menu").attr("src", "image/menu.png");
+      $(".img-action-menu").attr("src", "image/Menu-ic.svg");
       isShowSideBar = false;
       document.getElementById("myPageTitle").style.display = "block";
     }

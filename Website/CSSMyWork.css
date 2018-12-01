@@ -4,11 +4,10 @@
 }
 
 .hidden-text{
-overflow: hidden;
-
+	overflow: hidden;
 }
 
-.hidden-text p{
+.hidden-text p {
 	display: inline-block;
 	writing-mode: vertical-rl;
 	text-orientation: mixed;
@@ -18,6 +17,20 @@ overflow: hidden;
 	left: 15%;
 }
 
+.pageTitle {
+	margin-left: 12px;
+}
+
+.pageTitle:before {
+	top: 50%;
+	right: -160%;
+  }
+  
+  .pageTitle:after {
+	bottom: 50%;
+	left: -180%;
+  }
+
 .text-nhungmy{
 	top:56px;
 }
@@ -26,7 +39,7 @@ overflow: hidden;
 	bottom: 56px;
 }
 
-.project-1{
+.project-1 {
 	margin-top:15%;
 	z-index: 2;
 }
@@ -80,7 +93,7 @@ overflow: hidden;
 	}
 
 	.text-nhungmy{
-	top:160px;
+		top:160px;
 	}
 
 	.name-project{

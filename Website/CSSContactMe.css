@@ -6,6 +6,7 @@
 .pageTitle {
 	margin-left: 2px;
 }
+
 .pageTitle:before,
 .pageTitle:after{
   content: '';
