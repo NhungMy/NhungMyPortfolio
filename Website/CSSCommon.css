@@ -2,6 +2,58 @@
     margin: 0; padding: 0;
     font-family: 'Nunito Sans', sans-serif!important;
 }
+
+.display{
+  font-size: 36px;
+  font-weight: 700;
+  color: #535353;
+}
+
+
+.heading1{
+  font-size: 30px;
+  font-weight: 700;
+  color: #535353;
+}
+
+.heading2{
+  font-size: 24px;
+  font-weight: 700;
+  color: #535353;
+  padding-bottom: 24px;
+}
+
+.subheading1{
+  font-size: 20px;
+  font-weight: 600;
+  color: #535353;
+}
+
+.subheading2{
+  font-size: 18px;
+  font-weight: 200;
+  color: #535353;
+}
+
+.title{
+  font-size: 18px;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #2C2C2C;
+}
+
+.body{
+  font-size: 18px;
+  font-weight: 400;
+  color: #535353;
+}
+
+.caption{
+  font-size: 14px;
+  font-weight: 600;
+  color: #535353;
+}
+
 .fab {
   font-family: "Font Awesome 5 Brands"!important;
 }
@@ -87,6 +139,7 @@
   display: block;
 	margin-top: 20px;
 	position: relative;
+  text-decoration: none;
 }
 .Listmenu:before {
   position: absolute;
