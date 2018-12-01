@@ -11,6 +11,11 @@
   width: 37.5%;
 }
 
+.icon-network{
+  color: #535353;
+}
+
+
 img {
   width: 100%;
 }
@@ -79,6 +84,7 @@ img {
   margin-left: 180px;
   margin-top:240px;
   margin-right: 55px;
+  background-color: #fafafa;
 }
 .block-window{
   width: 25.1%;

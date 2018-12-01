@@ -3,45 +3,55 @@
     font-family: 'Nunito Sans', sans-serif!important;
 }
 
-.display1{
-  font-size: 48px;
-  font-weight: 800;
-}
-
-.display2{
+.display{
   font-size: 36px;
   font-weight: 700;
+  color: #535353;
 }
+
 
 .heading1{
   font-size: 30px;
   font-weight: 700;
+  color: #535353;
 }
 
 .heading2{
   font-size: 24px;
   font-weight: 700;
+  color: #535353;
+  padding-bottom: 24px;
 }
 
-.subheading{
+.subheading1{
   font-size: 20px;
   font-weight: 600;
+  color: #535353;
+}
+
+.subheading2{
+  font-size: 18px;
+  font-weight: 200;
+  color: #535353;
 }
 
 .title{
   font-size: 18px;
   font-weight: 200;
   text-transform: uppercase;
+  color: #2C2C2C;
 }
 
 .body{
   font-size: 18px;
   font-weight: 400;
+  color: #535353;
 }
 
 .caption{
   font-size: 14px;
   font-weight: 600;
+  color: #535353;
 }
 
 .fab {
@@ -129,6 +139,7 @@
   display: block;
 	margin-top: 20px;
 	position: relative;
+  text-decoration: none;
 }
 .Listmenu:before {
   position: absolute;
