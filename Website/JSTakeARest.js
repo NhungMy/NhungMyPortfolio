@@ -12,7 +12,6 @@ $(document).ready(function() {
             listView.style.display = "block";
             isShowGridListItem = false;
         } else {
-            console.log("Click me");
             $("#myGridButton").attr("src", "image/Grid-list-ic.svg");
             var windowView = document.getElementById("window-container");
             var listView = document.getElementById("list-container");
