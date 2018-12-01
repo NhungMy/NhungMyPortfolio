@@ -83,3 +83,30 @@ img {
 .Chili-image {
   padding: 15%;
 }
+
+/*Layout-3-col*/
+
+.layout-3-col{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 180px;
+  margin-top:240px;
+  margin-right: 55px;
+}
+.block-window{
+  width: 25.1%;
+  height: 26.8%;
+  background-color: #fafafa;
+}
+
+
+
+
+
+
+
+
+
+
+
