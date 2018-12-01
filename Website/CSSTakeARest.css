@@ -15,7 +15,6 @@
   color: #535353;
 }
 
-
 img {
   width: 100%;
 }
@@ -71,22 +70,19 @@ img {
   }
 }
 
-#grid-container {
+#window-container {
+  display: none;
   position: absolute;
   top: 240px;
   padding-left: 20%;
 }
 
 #list-container {
-  display: none;
+  display: block;
 }
 
 .Chili-container {
   background-color: #F9CE35;
-}
-
-.Chili-image {
-  padding: 15%;
 }
 
 /*Layout-3-col*/
