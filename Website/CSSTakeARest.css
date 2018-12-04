@@ -5,10 +5,25 @@
 
 .TextTakeARest {
   position: fixed;
-  z-index: 1;
-  top: 90px;
-  left: 180px;
-  width: 37.5%;
+  z-index: 0;
+  padding-top: 90px;
+  left:180px;
+  width: 100%;
+  
+}
+
+.takearest-tittle{
+  padding-bottom: 42px;
+}
+
+#text-window-view {
+  display: none;
+  position: fixed;
+  z-index: 0;
+  padding-left: 60px;
+  width: 100%;
+  background-image: -webkit-linear-gradient(top, white, rgba(255, 255, 255, 0.7));
+  left: 120px;
 }
 
 .icon-network{
@@ -24,8 +39,18 @@ img {
   position: fixed;
   top: 90px;
   right: 55px;
-  z-index: 1;
+  z-index: 0;
 }
+
+ .firstimage {
+    margin-top: 160px;
+  }
+
+.content-image {
+    position: absolute;
+    z-index: -3;
+
+  }
 
 .container-fullimage {
   display: flex;
@@ -37,10 +62,23 @@ img {
   padding: 10% 0 5% 0;
 }
 
+#window-container {
+  display: none;
+  position: absolute;
+  top: 320px;
+  left: 180px;
+  right:55px;
+  padding:0;
+}
+
+#list-container {
+  display: block;
+}
+
 @media screen and (max-width: 720px) {
   .GridButton {
     position: fixed;
-    right: 24px;
+    right: 16px;
   }
 
   .TextTakeARest {
@@ -49,9 +87,36 @@ img {
     left: 0;
     width: 100%;
     top: 0;
-    padding: 104px 16px 0 16px;
-    z-index: 0;
+    padding: 100px 16px 0 16px;
+    z-index: -1;
     background-image: -webkit-linear-gradient(top, white, rgba(255, 255, 255, 0.7));
+  }
+
+  .takearest-tittle{
+  padding-bottom: 0;
+  }
+
+  #text-window-view {
+    position: fixed;
+    right: 16px;
+    left: 0;
+    width: 100%;
+    top: 0;
+    padding: 104px 16px 0 16px;
+    z-index: -1;
+    background-image: -webkit-linear-gradient(top, white, rgba(255, 255, 255, 0.7));
+  }
+
+  #window-container {
+  top: 320px;
+  left: 180px;
+  right:16px;
+  padding:0;
+  }
+
+  .window-display{
+    padding-left: 4px;
+    padding-right: 4px;
   }
 
   .firstimage {
@@ -62,6 +127,12 @@ img {
     position: absolute;
     z-index: -3;
   }
+
+  #window-container{
+    left:0;
+    padding-left: 16px;
+  }
+
 }
 
 @media screen and (min-width: 720px) and (max-width: 1024px) {
@@ -70,37 +141,11 @@ img {
   }
 }
 
-#window-container {
-  display: none;
-  position: absolute;
-  top: 240px;
-  padding-left: 20%;
-}
 
-#list-container {
-  display: block;
-}
 
-.Chili-container {
-  background-color: #F9CE35;
-}
 
-/*Layout-3-col*/
 
-.layout-3-col{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-left: 180px;
-  margin-top:240px;
-  margin-right: 55px;
-  background-color: #fafafa;
-}
-.block-window{
-  width: 25.1%;
-  height: 26.8%;
-  background-color: #fafafa;
-}
+
 
 
 

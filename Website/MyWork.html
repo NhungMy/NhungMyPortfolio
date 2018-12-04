@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
 	<script type="text/javascript" src="JSCommon.js"></script>
-	<script type="text/javascript" src="functionpopup.js"></script>
+	<script type="text/javascript" src="JSMyWork.js"></script>
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="vendor/font-awesome.css">
 	<link rel="stylesheet" href="CSSCommon.css">
@@ -48,51 +48,92 @@
 			</div>
 			<div id="list-project" class="col-md-7 col-xs-10 listProject">
 				<div class="project-1 firt-project">
-					<h6 class="name-project">
+					<h6 class="name-project subheading1">
 						YOLO Sing Application
-						<span class="day-project">|  8/2017</span>
+						<span class="caption">  |  8/2017</span>
 					</h6>
 					<span class="thumbnail-project" style="cursor:pointer" onclick="openyolo()"><img src="image/thumbnail-yolo-02.png" alt=""></span>
 				</div>
 
-				<div class="project-1">
-					<h6 class="name-project">
-						YOLO Sing Application
+				<div class="project-1 ">
+					<h6 class="name-project subheading1">
+						Thiclammoc e-commerce website responsive
+						<span class="caption">|  10/2017  |   lunched</span>
 					</h6>
-					<a class="thumbnail-project" href=""><img src="image/thumbnail-hismart-01.png" alt=""></a>
+					<span class="thumbnail-project" style="cursor:pointer" onclick="openTLM()"><img src="image/thumbnail-thichlammoc.png" alt=""></span>
 				</div>
 				<div class="project-1">
-					<h6 class="name-project">
-						YOLO Sing Application
+					<h6 class="name-project subheading1">
+						HISmart Viewer Applycation
+						<span class="caption">|  12/2017  |   lunched</span>
 					</h6>
-					<a class="thumbnail-project" href=""><img src="image/thumbnail-thichlammoc.png" alt=""></a>
+					<span class="thumbnail-project" style="cursor:pointer" onclick="openHis()"><img src="image/thumbnail-hismart-01.png" alt=""></span>
 				</div>
 				<div class="project-1">
-					<h6 class="name-project">
-						YOLO Sing Application
+					<h6 class="name-project subheading1">
+						ZOZO e-commerce website responsive
+						<span class="caption">|  3/2018</span>
 					</h6>
-					<a class="thumbnail-project" href=""><img src="image/thumbnail-zozo.png" alt=""></a>
+					<span class="thumbnail-project" style="cursor:pointer" onclick="openzozo()"><img src="image/thumbnail-zozo.png" alt=""></span>
 				</div>
 				<div class="project-1">
-					<h6 class="name-project">
-						YOLO Sing Application
+					<h6 class="name-project subheading1">
+						Restaurant application
+						<span class="caption">|  7/2018</span>
 					</h6>
-					<a class="thumbnail-project" href=""><img src="image/thumbnail-restaurant.svg" alt=""></a>
+					<span class="thumbnail-project" style="cursor:pointer" onclick="openres()"><img src="image/thumbnail-restaurant.svg" alt=""></span>
 				</div>
 				<div class="project-1">
-					<h6 class="name-project">
-						YOLO Sing Application
+					<h6 class="name-project subheading1">
+						Online learning website The Galaxy
+						<span class="caption">|  8/2018</span>
 					</h6>
-					<a class="thumbnail-project" href=""><img src="image/thumbnail-galaxy.svg" alt=""></a>
+					<span class="thumbnail-project" style="cursor:pointer" onclick="opengalaxy()"><img src="image/thumbnail-galaxy.svg" alt=""></span>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div id="project-yolo" class="popupProject projectyolo">
 		<span onclick="closeyolo()" class="close closeyolo">&times;</span>
-		<img class="project-img" src="image/Project-yolo.png" alt="">
+		<img class="project-img" src="image/thumbnail-yolo-02.png" alt="">
+		<img class="project-img" src="image/yolo-present-01.png" alt="">
+		<img class="project-img" src="image/yolo-present-02.gif" alt="">
+		<img class="project-img" src="image/yolo-present-03.png" alt="">
+		<img class="project-img" src="image/yolo-present-04.png" alt="">
+		<img class="project-img" src="image/yolo-present-05.png" alt="">
 	</div>
-	
+
+	<div id="project-TLM" class="popupProject projectTLM">
+			<span onclick="closeTLM()" class="close closeTLM">&times;</span>
+			<img class="project-img" src="image/Project-Thichlammoc-01.png" alt="">
+	</div>
+
+	<div id="project-His" class="popupProject projectHis">
+		<span onclick="closeHis()" class="close closeHis">&times;</span>
+		<img class="project-img" src="image/Project-Hismart.png" alt="">
+	</div>
+
+	<div id="project-zozo" class="popupProject projectzozo">
+		<span onclick="closezozo()" class="close closezozo">&times;</span>
+		<img class="project-img" src="image/Project-zozo-01.png" alt="">
+		<img class="project-img" src="image/Project-zozo-02.png" alt="">
+	</div>
+
+	<div id="project-res" class="popupProject projectres">
+		<span onclick="closeres()" class="close closeres">&times;</span>
+		<img class="project-img" src="image/project-restaurant-01.png" alt="">
+		<img class="project-img" src="image/project-restaurant-02.gif" alt="">
+		<img class="project-img" src="image/project-restaurant-03.png" alt="">
+		<img class="project-img" src="image/project-restaurant-04.png" alt="">
+	</div>
+
+	<div id="project-galaxy" class="popupProject projectgalaxy">
+		<span onclick="closegalaxy()" class="close closegalaxy">&times;</span>
+		<img class="project-img" src="image/Project-galaxy-01.png" alt="">
+		<img class="project-img" src="image/Project-galaxy-02.png" alt="">
+	</div>
+
+
 </body>
 
 </html

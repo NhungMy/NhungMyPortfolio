@@ -15,8 +15,8 @@
 	width: 60%;
 	height: 60%;
 	position: relative;
-	margin-top: 150px;
-	margin-right: 10%;
+	margin-right: 30%;
+	bottom: -50%;
 	float: right;
 }
 
@@ -28,16 +28,27 @@
   .HomeIntro {
     margin-top: 15%;
   }
+
+  #ContainerLogo {
+  	margin-right: 20%;
+  	bottom: -70%;
+  }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
 	.HomeIntro {
 		margin-top: 30%;
 	}
 
-  .Menu {
+  	.Menu {
     width: 100%!important;
+ 	 }
+
+	#ContainerLogo {
+  	margin-right: 20%;
+  	bottom: -90%;
   }
+
 }
 
 @media screen and (max-width: 575px) {
@@ -45,6 +56,8 @@
 		width: 200px;
 		height: 200px;
 		margin-top: 0%;
-		float: left;
+		float: right;
+		bottom: 0;
+		margin-right: 10%;
 	}
 }

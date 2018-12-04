@@ -53,6 +53,41 @@
   font-weight: 600;
   color: #535353;
 }
+ /*typo Mobile*/
+@media screen and (max-width: 720px){
+  .display{
+  font-size: 20px;
+}
+
+.heading1{
+  font-size: 24px;
+}
+
+.heading2{
+  font-size: 18px;
+}
+
+.subheading1{
+  font-size: 12px;
+}
+
+.subheading2{
+  font-size: 14px;
+}
+
+.title{
+  font-size: 14px;
+}
+
+.body{
+  font-size: 14px;
+}
+
+.caption{
+  font-size: 8px;
+}
+}
+/*End typo mobile*/
 
 .fab {
   font-family: "Font Awesome 5 Brands"!important;
@@ -106,6 +141,13 @@
   height: 1px;
   background: #3d3d3d;
 }
+
+.Listmenu:hover p{
+  margin-left: 16px;
+  color: #535353;
+  transition: 0.5s;
+}
+
 @keyframes openSideMenu {
   0% {
     width: 0;
@@ -222,7 +264,7 @@
     display: block;
     padding: 48px 60px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
   .Sidenav {
     position: fixed;
     width: 100%;
@@ -282,6 +324,7 @@
     top: 10%;
     animation-name: openChildMenu;
     animation-duration: 0.6s;
+
   }
   .Sidenav.open  .sidenavItem a {
     padding: 16px;
@@ -289,6 +332,7 @@
   }
   .sidenavItem .active p {
     padding: 0;
+
   }
 }
 
