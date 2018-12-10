@@ -31,11 +31,11 @@
 
   #ContainerLogo {
   	margin-right: 20%;
-  	bottom: -70%;
+  	bottom: -100%;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
 	.HomeIntro {
 		margin-top: 30%;
 	}
@@ -46,7 +46,7 @@
 
 	#ContainerLogo {
   	margin-right: 20%;
-  	bottom: -90%;
+  	bottom: -120%;
   }
 
 }
