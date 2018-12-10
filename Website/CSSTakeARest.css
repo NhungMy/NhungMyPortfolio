@@ -42,6 +42,11 @@ img {
   width: 100%;
 }
 
+.swim-img{
+  width: 100%;
+  height: 100%;
+}
+
 .GridButton {
   width: 20px;
   position: fixed;
