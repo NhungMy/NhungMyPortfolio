@@ -12,8 +12,16 @@
   
 }
 
+.pageTitle:before {
+  top: -130%;
+}
+
+.pageTitle:after {
+  bottom: -130%;
+}
+
 .takearest-tittle{
-  padding-bottom: 42px;
+  padding-bottom: 24px;
 }
 
 #text-window-view {

@@ -61,3 +61,13 @@
 		margin-right: 10%;
 	}
 }
+
+
+.pageTitle:before {
+  top: -100%;
+}
+
+.pageTitle:after {
+  bottom: -100%;
+}
+

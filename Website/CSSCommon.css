@@ -148,6 +148,16 @@
   transition: 0.5s;
 }
 
+.Menu a:hover {
+  text-transform: uppercase;
+  font-size: 15px;
+  height: 27px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #535353;
+  bottom:-3px;
+}
+
 @keyframes openSideMenu {
   0% {
     width: 0;
@@ -202,47 +212,41 @@
   z-index: 3;
 }
 
+/*Page title*/
+
 .pageTitle {
-  position: fixed;
-  top: 50%;
+  position: absolute;
+  /*top:50%;*/
   z-index: 4;
-  display: block;
-  -webkit-transform: rotate(-90deg);
-  text-transform: uppercase;
+  writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg);
   margin: 0;
-  height: 24px;
+      margin-left: 0px;
+  width: 24px;
   margin-left: -12px;
+  left: 50%;
 }
 
 .pageTitle:before,
-.pageTitle:after,
-.pageTitle.takeARest:before,
-.pageTitle.takeARest:after {
+.pageTitle:after{
   content: '';
-  height: 1px;
-  width: 110px;
+  height: 110px;
+  width: 1px;
   background: #3d3d3d;
   position: absolute;
   display: block;
 }
 .pageTitle:before {
-  top: 50%;
-  right: -100%;
+  top: -150%;
+  right: 50%;
 }
 
 .pageTitle:after {
-  bottom: 50%;
-  left: -100%;
+  bottom: -150%;
+  left: 50%;
 }
-.pageTitle.takeARest {
-  margin-left: 4px;
-}
-.pageTitle.takeARest:before{
-  right: -123%;
-}
-.pageTitle.takeARest:after {
-  left: -123%;
-}
+
+ /*End page title*/
 
 .menunav {
   position: fixed;
@@ -257,8 +261,6 @@
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
     display: block;
     transition: 0.3s;
     display: block;
@@ -275,12 +277,12 @@
 
   .Sidenav .pageTitle {
     position: absolute;
-    left: 38%;
     display: block;
+    writing-mode: unset;
     -webkit-transform: unset;
-    transform: unset;
-    top: 30px;
     width: 160px;
+    text-align: center;
+    margin-left: -80px;
   }
 
   .Sidenav .menunav {
@@ -294,29 +296,25 @@
     position: fixed;
     top: 24px;
     right: 16px;
-    margin-left: 0%;
+    margin-left: 0;
     width: 30px;
     height: 30px;
-  }
-
-  .pageTitle:before,
-  .pageTitle:after,
-  .pageTitle.takeARest:before,
-  .pageTitle.takeARest:after {
-    width: 20px;
   }
 
   .Sidenav .pageTitle:before,
   .Sidenav .pageTitle:after{
     all: unset;
   }
+
   .Listmenu:before {
     all: unset!important;
   }
+
   .Sidenav.open {
     width: 100%;
     animation: unset;
   }
+
   .Sidenav.open .sidenavItem {
     left: 0;
     width: 100%;
@@ -324,16 +322,18 @@
     top: 10%;
     animation-name: openChildMenu;
     animation-duration: 0.6s;
-
   }
+
   .Sidenav.open  .sidenavItem a {
     padding: 16px;
     text-align: center;
   }
+
   .sidenavItem .active p {
     padding: 0;
 
   }
+
 }
 
 
