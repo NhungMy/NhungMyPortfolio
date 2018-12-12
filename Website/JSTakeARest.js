@@ -1,10 +1,10 @@
-var isShowGridListItem = false;
+var isShowWindowItem = false;
 
 $(document).ready(function() {
     var gridButton = document.getElementById("myGridButton");
 
     gridButton.addEventListener('click', function(e) {
-        if (isShowGridListItem) {
+        if (isShowWindowItem) {
             $("#myGridButton").attr("src", "image/Grid-window-ic.svg");
             var windowView = document.getElementById("window-container");
             var listView = document.getElementById("list-container");
@@ -14,7 +14,9 @@ $(document).ready(function() {
             listView.style.display = "block";
             textlistView.style.display="block";
             textwindowView.style.display="none";
-            isShowGridListItem = false;
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            isShowWindowItem = false;
         } else {
             $("#myGridButton").attr("src", "image/Grid-list-ic.svg");
             var windowView = document.getElementById("window-container");
@@ -25,7 +27,9 @@ $(document).ready(function() {
             listView.style.display = "none";
             textlistView.style.display="none";
             textwindowView.style.display="block";
-            isShowGridListItem = true;
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            isShowWindowItem = true;
         }
     });
 

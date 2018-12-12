@@ -1,9 +1,9 @@
 
 
   var animation = bodymovin.loadAnimation({
-  container: document.getElementById('about-me-animation'),
+  container: document.getElementById('ContainerLogo'),
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: 'aboutme.json'
+  path: 'Logo-animation.json'
 })

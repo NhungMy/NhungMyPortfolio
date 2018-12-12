@@ -16,10 +16,9 @@ $(document).ready(function() {
   });
 
   //auto hide menu when click anywhere
-  $(document).on("click", function(e) {
+  $(document).on("click", function(event) {
     if (
-      !$(e.target).closest("#myButtonNavi").length ||
-      !$(e.target).closest("#mySidenav").length
+      !$(event.target).closest("#myButtonNavi").length 
     ) {
       $("#mySidenav").removeClass("open");
       $(".img-action-menu").attr("src", "image/Menu-ic.svg");
