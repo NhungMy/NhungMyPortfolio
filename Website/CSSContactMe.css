@@ -28,12 +28,13 @@
 
 .email{
   padding-top:20px;
-  color: #6B4AFF; 
   font-size: 24px; 
   font-weight: 600;
 }
-
-@media screen and (max-width: 768px){
+.email a{
+  color: #6B4AFF; 
+}
+@media screen and (max-width: 576px){
 
   .contactme{
   position: fixed;
@@ -50,6 +51,10 @@
   font-size: 18px;
   text-align: right;
   padding-top: 8px;
+  }
+
+  .email a:hover{
+    text-decoration: none;
   }
 
   .icon-network{
