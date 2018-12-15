@@ -3,6 +3,10 @@
 	padding:0;
 }
 
+.fab {
+  font-family: "Font Awesome 5 Brands"!important;
+}
+
 .pageTitle:before {
   top: -130%;
 }
