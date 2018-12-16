@@ -7,9 +7,12 @@
   font-family: "Font Awesome 5 Brands"!important;
 }
 
-.pageTitle{
-  height: 114px;
-  margin-top: -57px;
+@media screen and (min-width: 769px){
+    .pageTitle{
+      top:50%;
+      height: 114px;
+      margin-top: -57px;
+    }
 }
 
 .pageTitle:before {
@@ -43,6 +46,11 @@
 .email a{
   color: #6B4AFF; 
 }
+
+@media screen and (max-width: 768px){
+  .contact-text{
+    font-size: 14px;
+  }
 @media screen and (max-width: 576px){
 
   .contactme{

@@ -54,7 +54,7 @@
   color: #535353;
 }
  /*typo Mobile*/
-@media screen and (max-width: 720px){
+@media screen and (max-width: 768px){
   .display{
   font-size: 20px;
 }
@@ -222,7 +222,6 @@
   width: 24px;
   margin-left: -12px;
   left: 50%;
-  top:50%;
 }
 
 .pageTitle:before,
