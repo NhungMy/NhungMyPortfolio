@@ -7,7 +7,6 @@ function openyolo(){
 
 function closeyolo(){
 	var projectyolo = document.getElementById('project-yolo');
-	var closeyolo = document.getElementById('project-yolo');
 	projectyolo.style.display = "none";
 };
 
@@ -20,9 +19,7 @@ function openTLM(){
 };
 
 function closeTLM(){
-	console.log("click")
 	var projectTLM = document.getElementById('project-TLM');
-	var closeTLM = document.getElementById('project-TLM');
 	projectTLM.style.display = "none";
 };
 
@@ -35,9 +32,7 @@ function openHis(){
 };
 
 function closeHis(){
-	console.log("click")
 	var projectHis = document.getElementById('project-His');
-	var closeHis = document.getElementById('project-His');
 	projectHis.style.display = "none";
 };
 
@@ -50,9 +45,7 @@ function openzozo(){
 };
 
 function closezozo(){
-	console.log("click")
 	var projectzozo = document.getElementById('project-zozo');
-	var closezozo = document.getElementById('project-zozo');
 	projectzozo.style.display = "none";
 };
 
@@ -65,9 +58,7 @@ function openres(){
 };
 
 function closeres(){
-	console.log("click")
 	var projectres = document.getElementById('project-res');
-	var closeres = document.getElementById('project-res');
 	projectres.style.display = "none";
 };
 
@@ -81,9 +72,7 @@ function opengalaxy(){
 };
 
 function closegalaxy(){
-	console.log("click")
 	var projectgalaxy = document.getElementById('project-galaxy');
-	var closegalaxy = document.getElementById('project-galaxy');
 	projectgalaxy.style.display = "none";
 };
 

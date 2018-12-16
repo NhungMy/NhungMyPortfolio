@@ -1,5 +1,4 @@
-  
-  /*------------- Animation Home -----------------*/
+
   
   /*------------- Animation About Me -----------------*/
 
@@ -11,12 +10,4 @@
   path: 'aboutme.json'
 })
 
-  // bodymovin.loadAnimation({
-  //   container: document.getElementById('about-me-animation'),
-  //   path: 'aboutme.json',
-  //   renderer: 'svg',
-  //   loop: true,
-  //   autoplay: true
-  // })
-
-  /*------------- Animation Take A Rest -----------------*/
+ 
