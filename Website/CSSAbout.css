@@ -1,8 +1,8 @@
 *{margin: 0; padding: 0;}
 
-
-.about-me{
-	overflow: hidden;
+.pageTitle{
+  height: 92px;
+  margin-top: -46px;
 }
 
 .container-image-me{

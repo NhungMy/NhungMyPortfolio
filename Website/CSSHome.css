@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+.pageTitle{
+	height: 144px;
+	margin-top: -72px;
+}
+
 .HomeIntro {
   margin-top: 10%;
 }

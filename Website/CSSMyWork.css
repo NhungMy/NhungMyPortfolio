@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+.pageTitle{
+	height: 86px;
+	margin-top: -43px;
+}
+
 .hidden-text{
 	overflow: hidden;
 }

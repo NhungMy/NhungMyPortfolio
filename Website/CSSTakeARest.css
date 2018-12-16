@@ -3,13 +3,9 @@
   padding: 0;
 }
 
-.TextTakeARest {
-  position: fixed;
-  z-index: 0;
-  padding-top: 90px;
-  left:180px;
-  width: 100%;
-  
+.pageTitle{
+  height: 110px;
+  margin-top: -55px;
 }
 
 .pageTitle:before {
@@ -18,6 +14,15 @@
 
 .pageTitle:after {
   bottom: -130%;
+}
+
+.TextTakeARest {
+  position: fixed;
+  z-index: 0;
+  padding-top: 90px;
+  left:180px;
+  width: 100%;
+  
 }
 
 .takearest-tittle{
