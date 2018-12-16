@@ -1,30 +1,27 @@
 var isShowSideBar = false;
 
-$(document).ready(function() {
-  $("#myButtonNavi").click(function() {
-    if (isShowSideBar == false) {
-      $("#mySidenav").addClass("open");
-      $(".img-action-menu").attr("src", "image/Back-ic.svg");
-      isShowSideBar = true;
-      document.getElementById("myPageTitle").style.display = 'none';
-      
-    } else {
-      $("#mySidenav").removeClass("open");
-      $(".img-action-menu").attr("src", "image/Menu-ic.svg");
-      isShowSideBar = false;
-      document.getElementById("myPageTitle").style.display = "block";
-    }
-  });
 
-  //auto hide menu when click anywhere
-  $(document).on("click", function(event) {
-    if (isShowSideBar == true &&
-      $(event.target).closest("#myButtonNavi").length == false ) // check click on My navi button => do not do anything
-     {
-      $("#mySidenav").removeClass("open");
-      $(".img-action-menu").attr("src", "image/Menu-ic.svg");
-      isShowSideBar = false;
-      document.getElementById("myPageTitle").style.display = "block";
+  function Opensidenav(){
+    if (isShowSideBar == false) {
+      document.getElementById("mySidenav").classList.add("open");
+      document.getElementsByClassName("img-action-menu")[0].src = "image/Back-ic.svg";
+      document.getElementById("myPageTitle").style.display = 'none';
+      isShowSideBar = true;
     }
-  });
-});
+    else {
+      document.getElementById("mySidenav").classList.remove("open");
+      document.getElementsByClassName("img-action-menu")[0].src = "image/Menu-ic.svg";
+      document.getElementById("myPageTitle").style.display = "block";
+      isShowSideBar = false;
+    }
+  };
+
+  window.onclick = function (event){
+    if (event.target.id != "mySidenav" &&
+        event.target.className != "img-action-menu") {
+      document.getElementById("mySidenav").classList.remove("open");
+      document.getElementsByClassName("img-action-menu")[0].src = "image/Menu-ic.svg";
+      document.getElementById("myPageTitle").style.display = "block";
+      isShowSideBar = false;
+    }
+  };

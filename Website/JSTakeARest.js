@@ -1,11 +1,10 @@
 var isShowWindowItem = false;
 
-$(document).ready(function() {
-    var gridButton = document.getElementById("myGridButton");
+ var gridButton = document.getElementById("myGridButton");
 
     gridButton.addEventListener('click', function(e) {
         if (isShowWindowItem) {
-            $("#myGridButton").attr("src", "image/Grid-window-ic.svg");
+            document.getElementById("myGridButton").src ="image/Grid-window-ic.svg";
             var windowView = document.getElementById("window-container");
             var listView = document.getElementById("list-container");
             var textlistView = document.getElementById("text-list-view");
@@ -18,7 +17,7 @@ $(document).ready(function() {
             document.documentElement.scrollTop = 0;
             isShowWindowItem = false;
         } else {
-            $("#myGridButton").attr("src", "image/Grid-list-ic.svg");
+            document.getElementById("myGridButton").src ="image/Grid-list-ic.svg";
             var windowView = document.getElementById("window-container");
             var listView = document.getElementById("list-container");
             var textlistView = document.getElementById("text-list-view");
@@ -33,5 +32,4 @@ $(document).ready(function() {
         }
     });
 
-});
 
