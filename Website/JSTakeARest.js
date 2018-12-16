@@ -1,35 +1,24 @@
 var isShowWindowItem = false;
 
- var gridButton = document.getElementById("myGridButton");
-
-    gridButton.addEventListener('click', function(e) {
-        if (isShowWindowItem) {
+    // gridButton.addEventListener('click', function(e) {
+    function changelayout(){
+        if (isShowWindowItem == true) {
             document.getElementById("myGridButton").src ="image/Grid-window-ic.svg";
-            var windowView = document.getElementById("window-container");
-            var listView = document.getElementById("list-container");
-            var textlistView = document.getElementById("text-list-view");
-            var textwindowView = document.getElementById("text-window-view");
-            windowView.style.display = "none";
-            listView.style.display = "block";
-            textlistView.style.display="block";
-            textwindowView.style.display="none";
-            document.body.scrollTop = 0;
+            document.getElementById("window-container").style.display = "none";
+            document.getElementById("list-container").style.display = "block";
+            document.getElementById("text-list-view").style.display="block";
+            document.getElementById("text-window-view").style.display="none";
             document.documentElement.scrollTop = 0;
             isShowWindowItem = false;
         } else {
             document.getElementById("myGridButton").src ="image/Grid-list-ic.svg";
-            var windowView = document.getElementById("window-container");
-            var listView = document.getElementById("list-container");
-            var textlistView = document.getElementById("text-list-view");
-            var textwindowView = document.getElementById("text-window-view");
-            windowView.style.display = "block";
-            listView.style.display = "none";
-            textlistView.style.display="none";
-            textwindowView.style.display="block";
-            document.body.scrollTop = 0;
+            document.getElementById("window-container").style.display = "block";
+            document.getElementById("list-container").style.display = "none";
+            document.getElementById("text-list-view").style.display="none";
+            document.getElementById("text-window-view").style.display="block";
             document.documentElement.scrollTop = 0;
             isShowWindowItem = true;
         }
-    });
+    };
 
 
